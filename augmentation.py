@@ -76,3 +76,5 @@ def elastic_transform(image, label=None, sigma_range=(13, 50), alpha_range=(10, 
             label = scipy.ndimage.map_coordinates(label, coords[1:, region_size[-3]//2, :], order=1)
     return image, label
 
+
+
